@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "com.example.smarthomeapp-merged_res-31:/layout_activity_login.xml.flat",
+        "source": "com.example.smarthomeapp-main-33:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.smarthomeapp-merged_res-31:/drawable_white_card_bg.xml.flat",
+        "source": "com.example.smarthomeapp-main-33:/drawable/white_card_bg.xml"
+    },
+    {
+        "merged": "com.example.smarthomeapp-merged_res-31:/drawable_input_bg.xml.flat",
+        "source": "com.example.smarthomeapp-main-33:/drawable/input_bg.xml"
+    },
+    {
+        "merged": "com.example.smarthomeapp-merged_res-31:/drawable_circle_bg.xml.flat",
+        "source": "com.example.smarthomeapp-main-33:/drawable/circle_bg.xml"
+    },
+    {
+        "merged": "com.example.smarthomeapp-merged_res-31:/layout_activity_signup.xml.flat",
+        "source": "com.example.smarthomeapp-main-33:/layout/activity_signup.xml"
+    },
+    {
+        "merged": "com.example.smarthomeapp-merged_res-31:/drawable_tab_button_unselected.xml.flat",
+        "source": "com.example.smarthomeapp-main-33:/drawable/tab_button_unselected.xml"
+    },
+    {
+        "merged": "com.example.smarthomeapp-merged_res-31:/layout_activity_main.xml.flat",
+        "source": "com.example.smarthomeapp-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.smarthomeapp-merged_res-31:/drawable_tab_button_selector.xml.flat",
+        "source": "com.example.smarthomeapp-main-33:/drawable/tab_button_selector.xml"
+    },
+    {
+        "merged": "com.example.smarthomeapp-merged_res-31:/layout_activity_auth.xml.flat",
+        "source": "com.example.smarthomeapp-main-33:/layout/activity_auth.xml"
+    },
+    {
+        "merged": "com.example.smarthomeapp-merged_res-31:/drawable_button_rounded.xml.flat",
+        "source": "com.example.smarthomeapp-main-33:/drawable/button_rounded.xml"
+    },
+    {
+        "merged": "com.example.smarthomeapp-merged_res-31:/layout_activity_intro.xml.flat",
+        "source": "com.example.smarthomeapp-main-33:/layout/activity_intro.xml"
+    }
+]

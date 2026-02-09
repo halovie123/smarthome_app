@@ -1,0 +1,32 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color light_gray
+color primary_blue
+color text_gray
+color white
+drawable button_rounded
+drawable circle_bg
+drawable input_bg
+drawable tab_button_selector
+drawable tab_button_unselected
+drawable white_card_bg
+id btnGetStarted
+id btnLogIn
+id btnLogin
+id btnSignIn
+id btnSignUp
+id etConfirmPassword
+id etPassword
+id etUsername
+id tabLayout
+id tvWelcome
+layout activity_auth
+layout activity_intro
+layout activity_login
+layout activity_main
+layout activity_signup
+string app_name
+style Base.Theme.SmartHomeApp
+style Theme.SmartHomeApp
+style Theme.SmartHomeApp.NoActionBar
