@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="vertical" android:padding="24dp"
+    android:background="@android:color/white">
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Quét thiết bị" android:textSize="18sp" android:textStyle="bold"
+        android:textColor="@color/blue_dark" android:layout_marginBottom="16dp"/>
+
+    <ProgressBar android:id="@+id/scanProgress"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:indeterminateTint="@color/blue_primary"/>
+
+    <TextView android:id="@+id/tvScanStatus"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Đang quét..." android:textSize="14sp"
+        android:textColor="#5A6A85" android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"/>
+
+    <LinearLayout android:id="@+id/layoutFoundDevices"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:visibility="gone"
+        android:layout_marginTop="12dp"/>
+
+    <Button android:id="@+id/btnCloseScan"
+        android:layout_width="match_parent" android:layout_height="48dp"
+        android:text="Đóng" android:textColor="@color/blue_primary"
+        android:background="@drawable/tab_container_bg"
+        android:stateListAnimator="@null"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>

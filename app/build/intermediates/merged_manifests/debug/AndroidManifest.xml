@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.smarthomeapp"
+    package="com.example.smarthome"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -9,10 +9,10 @@
         android:targetSdkVersion="34" />
 
     <permission
-        android:name="com.example.smarthomeapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:name="com.example.smarthome.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.example.smarthomeapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+    <uses-permission android:name="com.example.smarthome.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 
     <application
         android:allowBackup="true"
@@ -22,11 +22,11 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/Theme.SmartHomeApp" >
+        android:theme="@style/Theme.SmartHome" >
         <activity
-            android:name="com.example.smarthomeapp.IntroActivity"
+            android:name="com.example.smarthome.WelcomeActivity"
             android:exported="true"
-            android:theme="@style/Theme.SmartHomeApp.NoActionBar" >
+            android:windowSoftInputMode="adjustResize" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -34,24 +34,23 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.smarthomeapp.AuthActivity"
+            android:name="com.example.smarthome.AuthActivity"
             android:exported="false"
-            android:theme="@style/Theme.SmartHomeApp.NoActionBar" />
+            android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.example.smarthomeapp.LoginActivity"
+            android:name="com.example.smarthome.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.smarthome.ForgotPasswordActivity"
             android:exported="false"
-            android:theme="@style/Theme.SmartHomeApp.NoActionBar" />
+            android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.example.smarthomeapp.SignUpActivity"
-            android:exported="false"
-            android:theme="@style/Theme.SmartHomeApp.NoActionBar" />
-        <activity
-            android:name="com.example.smarthomeapp.MainActivity"
+            android:name="com.example.smarthome.RoomDetailActivity"
             android:exported="false" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="com.example.smarthomeapp.androidx-startup"
+            android:authorities="com.example.smarthome.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.emoji2.text.EmojiCompatInitializer"

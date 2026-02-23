@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.SmartHomeApp" parent="Theme.Material3.DayNight.NoActionBar">
-        <item name="colorPrimary">@color/primary_blue</item>
-        <item name="colorPrimaryVariant">@color/primary_blue</item>
-        <item name="colorOnPrimary">@color/white</item>
+<resources>
+    <style name="Theme.SmartHome" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/blue_primary</item>
+        <item name="colorPrimaryVariant">@color/blue_dark</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="android:statusBarColor">@color/blue_dark</item>
+        <item name="android:windowBackground">@color/bg_light</item>
+        <item name="bottomNavigationStyle">@style/BottomNavStyle</item>
     </style>
 
-    <style name="Theme.SmartHomeApp" parent="Base.Theme.SmartHomeApp" />
-    
-    <style name="Theme.SmartHomeApp.NoActionBar">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
+    <style name="BottomNavStyle" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="android:background">@android:color/white</item>
+        <item name="itemIconSize">26dp</item>
+        <item name="labelVisibilityMode">labeled</item>
+        <item name="itemHorizontalTranslationEnabled">false</item>
     </style>
 </resources>

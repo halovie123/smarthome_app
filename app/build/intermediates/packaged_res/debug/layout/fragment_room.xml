@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/bg_light">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:background="@drawable/header_wave_bg"
+            android:paddingStart="24dp" android:paddingEnd="24dp"
+            android:paddingTop="48dp" android:paddingBottom="28dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Các phòng" android:textSize="26sp" android:textStyle="bold"
+                android:textColor="@android:color/white"/>
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/roomGrid"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingStart="8dp" android:paddingEnd="8dp"
+            android:paddingTop="20dp" android:paddingBottom="16dp"/>
+    </LinearLayout>
+</ScrollView>

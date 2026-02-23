@@ -1,46 +1,142 @@
 [
     {
-        "merged": "com.example.smarthomeapp-merged_res-31:/layout_activity_login.xml.flat",
-        "source": "com.example.smarthomeapp-main-33:/layout/activity_login.xml"
+        "merged": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-merged_res-31:/drawable_header_wave_bg.xml.flat",
+        "source": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-main-33:/drawable/header_wave_bg.xml"
     },
     {
-        "merged": "com.example.smarthomeapp-merged_res-31:/drawable_white_card_bg.xml.flat",
-        "source": "com.example.smarthomeapp-main-33:/drawable/white_card_bg.xml"
+        "merged": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-merged_res-31:/drawable_feature_card_bg.xml.flat",
+        "source": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-main-33:/drawable/feature_card_bg.xml"
     },
     {
-        "merged": "com.example.smarthomeapp-merged_res-31:/drawable_input_bg.xml.flat",
-        "source": "com.example.smarthomeapp-main-33:/drawable/input_bg.xml"
+        "merged": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-merged_res-31:/color_bottom_nav_color.xml.flat",
+        "source": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-main-33:/color/bottom_nav_color.xml"
     },
     {
-        "merged": "com.example.smarthomeapp-merged_res-31:/drawable_circle_bg.xml.flat",
-        "source": "com.example.smarthomeapp-main-33:/drawable/circle_bg.xml"
+        "merged": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-merged_res-31:/drawable_btn_primary_bg.xml.flat",
+        "source": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-main-33:/drawable/btn_primary_bg.xml"
     },
     {
-        "merged": "com.example.smarthomeapp-merged_res-31:/layout_activity_signup.xml.flat",
-        "source": "com.example.smarthomeapp-main-33:/layout/activity_signup.xml"
+        "merged": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-merged_res-31:/anim_slide_in_right.xml.flat",
+        "source": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-main-33:/anim/slide_in_right.xml"
     },
     {
-        "merged": "com.example.smarthomeapp-merged_res-31:/drawable_tab_button_unselected.xml.flat",
-        "source": "com.example.smarthomeapp-main-33:/drawable/tab_button_unselected.xml"
+        "merged": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-merged_res-31:/layout_activity_welcome.xml.flat",
+        "source": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-main-33:/layout/activity_welcome.xml"
     },
     {
-        "merged": "com.example.smarthomeapp-merged_res-31:/layout_activity_main.xml.flat",
-        "source": "com.example.smarthomeapp-main-33:/layout/activity_main.xml"
+        "merged": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-merged_res-31:/layout_activity_auth.xml.flat",
+        "source": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-main-33:/layout/activity_auth.xml"
     },
     {
-        "merged": "com.example.smarthomeapp-merged_res-31:/drawable_tab_button_selector.xml.flat",
-        "source": "com.example.smarthomeapp-main-33:/drawable/tab_button_selector.xml"
+        "merged": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-merged_res-31:/drawable_welcome_bg.xml.flat",
+        "source": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-main-33:/drawable/welcome_bg.xml"
     },
     {
-        "merged": "com.example.smarthomeapp-merged_res-31:/layout_activity_auth.xml.flat",
-        "source": "com.example.smarthomeapp-main-33:/layout/activity_auth.xml"
+        "merged": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-merged_res-31:/drawable_logo_circle_bg.xml.flat",
+        "source": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-main-33:/drawable/logo_circle_bg.xml"
     },
     {
-        "merged": "com.example.smarthomeapp-merged_res-31:/drawable_button_rounded.xml.flat",
-        "source": "com.example.smarthomeapp-main-33:/drawable/button_rounded.xml"
+        "merged": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-merged_res-31:/drawable_nav_item_bg.xml.flat",
+        "source": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-main-33:/drawable/nav_item_bg.xml"
     },
     {
-        "merged": "com.example.smarthomeapp-merged_res-31:/layout_activity_intro.xml.flat",
-        "source": "com.example.smarthomeapp-main-33:/layout/activity_intro.xml"
+        "merged": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-merged_res-31:/anim_fade_in_up_delay2.xml.flat",
+        "source": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-main-33:/anim/fade_in_up_delay2.xml"
+    },
+    {
+        "merged": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-merged_res-31:/layout_activity_intro.xml.flat",
+        "source": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-main-33:/layout/activity_intro.xml"
+    },
+    {
+        "merged": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-merged_res-31:/layout_dialog_scan.xml.flat",
+        "source": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-main-33:/layout/dialog_scan.xml"
+    },
+    {
+        "merged": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-merged_res-31:/layout_activity_signup.xml.flat",
+        "source": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-main-33:/layout/activity_signup.xml"
+    },
+    {
+        "merged": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-merged_res-31:/layout_fragment_room.xml.flat",
+        "source": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-main-33:/layout/fragment_room.xml"
+    },
+    {
+        "merged": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-merged_res-31:/drawable_chip_bg.xml.flat",
+        "source": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-main-33:/drawable/chip_bg.xml"
+    },
+    {
+        "merged": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-merged_res-31:/layout_fragment_user.xml.flat",
+        "source": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-main-33:/layout/fragment_user.xml"
+    },
+    {
+        "merged": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-merged_res-31:/menu_bottom_nav_menu.xml.flat",
+        "source": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-main-33:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-merged_res-31:/drawable_tab_active_bg.xml.flat",
+        "source": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-main-33:/drawable/tab_active_bg.xml"
+    },
+    {
+        "merged": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-merged_res-31:/drawable_ic_nav_room.xml.flat",
+        "source": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-main-33:/drawable/ic_nav_room.xml"
+    },
+    {
+        "merged": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-merged_res-31:/drawable_input_bg.xml.flat",
+        "source": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-main-33:/drawable/input_bg.xml"
+    },
+    {
+        "merged": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-merged_res-31:/drawable_ic_nav_home.xml.flat",
+        "source": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-main-33:/drawable/ic_nav_home.xml"
+    },
+    {
+        "merged": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-merged_res-31:/layout_activity_room_detail.xml.flat",
+        "source": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-main-33:/layout/activity_room_detail.xml"
+    },
+    {
+        "merged": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-merged_res-31:/anim_fade_in_up.xml.flat",
+        "source": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-main-33:/anim/fade_in_up.xml"
+    },
+    {
+        "merged": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-merged_res-31:/drawable_tab_container_bg.xml.flat",
+        "source": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-main-33:/drawable/tab_container_bg.xml"
+    },
+    {
+        "merged": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-merged_res-31:/anim_fade_in_up_delay3.xml.flat",
+        "source": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-main-33:/anim/fade_in_up_delay3.xml"
+    },
+    {
+        "merged": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-merged_res-31:/layout_fragment_home.xml.flat",
+        "source": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-main-33:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-merged_res-31:/anim_slide_out_left.xml.flat",
+        "source": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-main-33:/anim/slide_out_left.xml"
+    },
+    {
+        "merged": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-merged_res-31:/layout_activity_forgot_password.xml.flat",
+        "source": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-main-33:/layout/activity_forgot_password.xml"
+    },
+    {
+        "merged": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-merged_res-31:/layout_activity_home.xml.flat",
+        "source": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-main-33:/layout/activity_home.xml"
+    },
+    {
+        "merged": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-merged_res-31:/layout_activity_login.xml.flat",
+        "source": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-main-33:/layout/activity_login.xml"
+    },
+    {
+        "merged": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-merged_res-31:/drawable_ic_home_logo.xml.flat",
+        "source": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-main-33:/drawable/ic_home_logo.xml"
+    },
+    {
+        "merged": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-merged_res-31:/drawable_ic_nav_user.xml.flat",
+        "source": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-main-33:/drawable/ic_nav_user.xml"
+    },
+    {
+        "merged": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-merged_res-31:/anim_fade_in_up_delay1.xml.flat",
+        "source": "/home/halovie/.gradle/daemon/8.2/com.example.smarthome.app-main-33:/anim/fade_in_up_delay1.xml"
+    },
+    {
+        "merged": "com.example.smarthome.app-merged_res-31:/layout_fragment_user.xml.flat",
+        "source": "com.example.smarthome.app-main-33:/layout/fragment_user.xml"
     }
 ]

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.smarthomeapp-mergeDebugResources-29:/values-large-v4/values-large-v4.xml",
+            "outputFile": "com.example.smarthome.app-mergeDebugResources-29:/values-large-v4/values-large-v4.xml",
             "map": [
                 {
                     "source": "/home/halovie/.gradle/caches/transforms-3/3c3e8d87979f80077854f6234c4ddaef/transformed/appcompat-1.6.1/res/values-large-v4/values-large-v4.xml",

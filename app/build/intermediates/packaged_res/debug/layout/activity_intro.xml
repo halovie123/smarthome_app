@@ -1,60 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#EAF2FF"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@android:color/white">
+    android:layout_height="match_parent">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
         android:orientation="vertical"
         android:gravity="center"
-        android:padding="24dp">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-        <!-- Logo placeholder -->
-        <View
+        <ImageView
             android:layout_width="120dp"
             android:layout_height="120dp"
-            android:layout_marginBottom="32dp"
-            android:background="@drawable/circle_bg" />
+            android:src="@android:drawable/ic_dialog_info"
+            android:layout_marginBottom="20dp"/>
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Giới thiệu"
-            android:textSize="24sp"
-            android:textColor="#333333"
+            android:text="SmartHome App"
+            android:textSize="26sp"
             android:textStyle="bold"
-            android:layout_marginBottom="16dp"/>
+            android:textColor="#000"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="App"
-            android:textSize="28sp"
-            android:textColor="#333333"
-            android:textStyle="bold"
-            android:layout_marginBottom="48dp"/>
-
-        <View
-            android:layout_width="80dp"
-            android:layout_height="2dp"
-            android:background="#CCCCCC"
-            android:layout_marginBottom="80dp"/>
-
-        <!-- Get Started Button -->
-        <Button
-            android:id="@+id/btnGetStarted"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Get started"
+            android:text="Control your smart devices easily"
             android:textSize="16sp"
-            android:textColor="@android:color/white"
-            android:background="@drawable/button_rounded"
-            android:paddingVertical="16dp"
-            android:layout_marginTop="32dp"
-            android:textAllCaps="false"/>
+            android:textColor="#555"
+            android:layout_marginBottom="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
 
+        <Button
+            android:id="@+id/btnStart"
+            android:text="Get Started"
+            android:backgroundTint="#5B8DEF"
+            android:textColor="#FFFFFF"
+            android:layout_width="200dp"
+            android:layout_height="50dp"/>
     </LinearLayout>
 
 </RelativeLayout>

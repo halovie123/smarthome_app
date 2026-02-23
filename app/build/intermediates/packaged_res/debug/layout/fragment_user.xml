@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/bg_light">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Header -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:background="@drawable/header_wave_bg" android:orientation="vertical"
+            android:gravity="center" android:padding="40dp">
+
+            <!-- Avatar -->
+            <TextView android:layout_width="90dp" android:layout_height="90dp"
+                android:text="👤" android:textSize="48sp" android:gravity="center"
+                android:background="@drawable/logo_circle_bg"/>
+
+            <TextView android:id="@+id/tvUsername"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Người dùng" android:textSize="20sp" android:textStyle="bold"
+                android:textColor="@android:color/white" android:layout_marginTop="16dp"/>
+        </LinearLayout>
+
+        <!-- Settings Card -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            app:cardCornerRadius="20dp" app:cardElevation="6dp"
+            app:cardBackgroundColor="@android:color/white"
+            android:layout_marginStart="16dp" android:layout_marginEnd="16dp"
+            android:layout_marginTop="24dp">
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="vertical" android:padding="24dp">
+
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Cài đặt" android:textSize="16sp" android:textStyle="bold"
+                    android:textColor="@color/blue_dark" android:layout_marginBottom="20dp"/>
+
+                <!-- Language -->
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="🌐  Ngôn ngữ" android:textSize="14sp"
+                    android:textColor="@color/blue_dark" android:textStyle="bold"
+                    android:layout_marginBottom="8dp"/>
+
+                <Spinner android:id="@+id/spinnerLanguage"
+                    android:layout_width="match_parent" android:layout_height="52dp"
+                    android:background="@drawable/input_bg"
+                    android:paddingStart="16dp" android:paddingEnd="16dp"
+                    android:layout_marginBottom="24dp"/>
+
+                <!-- Divider -->
+                <View android:layout_width="match_parent" android:layout_height="1dp"
+                    android:background="#EAF2FB" android:layout_marginBottom="24dp"/>
+
+                <!-- Logout -->
+                <Button android:id="@+id/btnLogout"
+                    android:layout_width="match_parent" android:layout_height="54dp"
+                    android:text="Đăng xuất"
+                    android:textSize="16sp" android:textStyle="bold"
+                    android:textColor="@android:color/white"
+                    android:backgroundTint="#1A3A5C"
+                    android:stateListAnimator="@null"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>
